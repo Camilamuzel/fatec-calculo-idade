@@ -2,7 +2,7 @@
 
 const botaoCalcular = document.getElementById('calcular') //equivalente a definir variável
 
-botaoCalcular.onclick = calcularIdade () 
+function botaoCalcular.onclick = calcularIdade () 
 {
     const anoNasc = document.getElementById('ano-de-nascimento')
     const caixaResultado = document.getElementById('resultado')
