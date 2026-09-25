@@ -1,17 +1,16 @@
 'use strict'
 
-const botaoCalcular = document.getElementById('calcular') //equivalente a definir variável
+const botaoCalcular = document.getElementById('calcular')
+    function calcularIdade ( ){
+        const anonascimento = document.getElementById("ano-nascimento")
+        const anoAtual = 2026
+        const caixaResultado = document.getElementById("resultado")
 
-function botaoCalcular.onclick = calcularIdade () 
-{
-    const anoNasc = document.getElementById('ano-de-nascimento')
-    const caixaResultado = document.getElementById('resultado')
-    const anoAtual = 2026
+        const idade = anoAtual - anonascimento.value
 
-    const idade = anoAtual - anoNasc.value
+        caixaResultado.textContent = idade
 
-    caixaResultado.textContent = idade 
-} 
+    }
 
-botaoCalcular.onclick = calcularIdade
 
+botaoCalcular.onclick = calcularIdade 
